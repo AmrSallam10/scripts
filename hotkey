@@ -1,0 +1,18 @@
+#!/bin/env bash
+
+# Simulate pressing 'q' key
+xdotool key q
+
+# Wait for a brief moment to ensure the next key presses are recognized
+sleep 0.1
+
+# Simulate typing '7272' and pressing the 'Tab' key
+xdotool type "7272"
+xdotool key Tab
+
+# Simulate typing '88w' and pressing the 'Tab' key
+xdotool type "88w"
+xdotool key Tab
+
+# Simulate typing 'w88w'
+xdotool type "w88w"
