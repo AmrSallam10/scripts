@@ -1,5 +1,6 @@
 import pyautogui
 import subprocess
+#amr
 
 def send_text():
     pyautogui.typewrite('623723\t73223\t83832')
